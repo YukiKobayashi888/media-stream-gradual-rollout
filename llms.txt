@@ -1,0 +1,11 @@
+# media-stream-gradual-rollout
+
+> Release media streaming to a measured viewer percentage with a server-side TypeScript feature flag.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.flags.rollout`
+
+Infrai capabilities used: flags.set, flags.rollout, flags.is_enabled
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

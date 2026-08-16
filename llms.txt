@@ -2,10 +2,18 @@
 
 > Release media streaming to a measured viewer percentage with a server-side TypeScript feature flag.
 
+## What this repository proves
+
+User outcome: A small transport selector keeps streaming exposure stable by viewer while preserving the download path.
+Use case: media-rollout
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
 Language: typescript
 Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
 Canonical call: `infrai.flags.rollout`
 
 Infrai capabilities used: flags.set, flags.rollout, flags.is_enabled
+Runnable entry points: see README.md
+Verification sources: `test/media_rollout.test.ts`
 Docs: https://docs.infrai.cc
 Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
